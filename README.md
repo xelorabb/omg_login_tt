@@ -1,24 +1,14 @@
-# omg_forms
+# OMG Login Forms - TikTok
 
-## Project setup
+Source code for [TikTok video](https://www.tiktok.com/@xelorabb/video/7016735624413711622)
+
+#### Project setup
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Server runs on `localhost:8080`
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Overview
+![overview](https://raw.githubusercontent.com/xelorabb/omg_login_tt/master/overview.png)

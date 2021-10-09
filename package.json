@@ -1,5 +1,5 @@
 {
-  "name": "omg_forms",
+  "name": "omg_login_tt",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
     "core-js": "^3.6.5",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "vue": "^3.0.0"
   },
   "devDependencies": {
@@ -18,7 +26,10 @@
     "@vue/compiler-sfc": "^3.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
+    "eslint-plugin-vue": "^7.0.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^10.2.0",
+    "vue-cli-plugin-tailwind": "~2.0.6"
   },
   "eslintConfig": {
     "root": true,
